@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnTap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#778899"
+            android:onClick="loadFragmentOne"
+            android:text="Tab 1"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnTab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#778899"
+            android:onClick="loadFragmentTwo"
+            android:text="Tab 2"
+            android:textColor="#FFFFFF" />
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/mainFrag"
+        android:layout_width="match_parent"
+        android:layout_height="317dp"
+        android:layout_gravity="top">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="displayNotification"
+            android:text="Nyalakan Wifi" />
+
+
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="#778899"
+            android:text="ABOUT" />
+
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Hallo" />
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Username" />
+
+    <Button
+        android:id="@+id/lstfilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Film" />
+
+
+
+
+
+
+
+</LinearLayout>

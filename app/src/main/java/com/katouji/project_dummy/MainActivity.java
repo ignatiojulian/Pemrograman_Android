@@ -2,19 +2,24 @@ package com.katouji.project_dummy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.job.JobInfo;
+import android.app.job.JobScheduler;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 
 public class MainActivity extends AppCompatActivity {
     private Button loginBtn;
     public EditText emailTxt;
     private EditText passTxt;
     String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,10 +49,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openArctivityHome(){//ganti ke halaman HomeActivity
-        Bundle bundle = new Bundle();
-        bundle.putString("dataUsername", emailTxt.getText().toString());
+
         Intent intent = new Intent(this, HomeActivity.class);
-        intent.putExtras(bundle);
         startActivity(intent);
     }
+
+
+
 }
