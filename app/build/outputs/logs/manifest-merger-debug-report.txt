@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/macbook/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/1964611a1907e3ea07b40ce4c516c284/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -33,29 +33,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/macbook/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:1-34:12
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:5:5-81
-	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:6:5-32:19
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:5:5-27:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:5-89
@@ -65,53 +61,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/macb
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.katouji.project_dummy.add
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:12:9-50
+	android:name
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:12:19-38
 activity#com.katouji.project_dummy.AboutActivity
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:13:9-60
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:13:9-51
 	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:13:19-48
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:13:19-48
 activity#com.katouji.project_dummy.HomeActivity
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:14:9-59
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:14:9-50
 	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:14:19-47
 activity#com.katouji.project_dummy.row
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:15:9-51
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:15:9-41
 	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:15:19-38
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:15:19-38
 activity#com.katouji.project_dummy.MainActivity
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:16:9-24:20
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:16:19-47
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:20:27-74
 service#com.katouji.project_dummy.HomeActivity
-ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:26:9-28:72
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:24:9-26:72
 	android:permission
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:28:13-69
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:26:13-69
 	android:name
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml:27:13-40
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:25:13-41
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml:29:22-78
 uses-sdk
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/macbook/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/macbook/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
@@ -170,13 +174,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/macbook/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/macbook/Downloads/ProgAndro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/AndroidManifest.xml

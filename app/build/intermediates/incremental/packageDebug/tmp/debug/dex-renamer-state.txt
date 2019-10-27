@@ -1,4 +1,4 @@
-#Sun Sep 29 22:24:07 WIB 2019
-base.0=/Users/macbook/Downloads/ProgAndro/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Sun Oct 27 22:50:11 WIB 2019
+base.0=/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

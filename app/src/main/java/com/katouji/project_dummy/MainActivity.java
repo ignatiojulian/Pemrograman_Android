@@ -19,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
     private EditText passTxt;
     String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
+//    SharedPreferences sharedpreferences;
+//    TextView name;
+//    TextView email;
+    public static final String mypreference = "mypref";
+    public static final String Name = "nameKey";
+    public static final String Email = "emailKey";
+
 
 
     @Override
@@ -29,6 +36,50 @@ public class MainActivity extends AppCompatActivity {
         emailTxt = findViewById(R.id.emailTxt);
         passTxt = findViewById(R.id.passTxt);
         loginBtn = (Button) findViewById(R.id.loginBtn);
+
+
+
+
+//        sharedpreferences = getSharedPreferences(mypreference,
+//                Context.MODE_PRIVATE);
+//        if (sharedpreferences.contains(Name)) {
+//            name.setText(sharedpreferences.getString(Name, ""));
+//        }
+//        if (sharedpreferences.contains(Email)) {
+//            email.setText(sharedpreferences.getString(Email, ""));
+//
+//        }
+//
+//        public void Save(View view) {
+//            String n = name.getText().toString();
+//            String e = email.getText().toString();
+//            SharedPreferences.Editor editor = sharedpreferences.edit();
+//            editor.putString(Name, n);
+//            editor.putString(Email, e);
+//            editor.commit();
+//        }
+//
+//        public void clear(View view) {
+//            name = (TextView) findViewById(R.id.etName);
+//            email = (TextView) findViewById(R.id.etEmail);
+//            name.setText("");
+//            email.setText("");
+//        }
+//
+//        public void Get(View view) {
+//            name = (TextView) findViewById(R.id.etName);
+//            email = (TextView) findViewById(R.id.etEmail);
+//            sharedpreferences = getSharedPreferences(mypreference,
+//                    Context.MODE_PRIVATE);
+//
+//            if (sharedpreferences.contains(Name)) {
+//                name.setText(sharedpreferences.getString(Name, ""));
+//            }
+//            if (sharedpreferences.contains(Email)) {
+//                email.setText(sharedpreferences.getString(Email, ""));
+//
+//            }
+//        }
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override

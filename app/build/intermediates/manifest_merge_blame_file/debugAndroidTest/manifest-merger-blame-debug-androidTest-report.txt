@@ -3,31 +3,31 @@
 3    package="com.katouji.project_dummy.test" >
 4
 5    <uses-sdk
-5-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:5:5-74
+5-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:5:5-74
 6        android:minSdkVersion="19"
-6-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:5:15-41
+6-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:5:15-41
 7        android:targetSdkVersion="28" />
-7-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:5:42-71
+7-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:11:5-15:75
+9-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:11:5-15:75
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:11:22-76
+10-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:14:22-52
+11-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:13:22-53
+12-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:13:22-53
 13        android:label="Tests for com.katouji.project_dummy"
-13-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:15:22-73
+13-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:15:22-73
 14        android:targetPackage="com.katouji.project_dummy" />
-14-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:12:22-71
+14-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:12:22-71
 15
 16    <application android:debuggable="true" >
-16-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:7:5-9:19
-16-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:7:18-43
+16-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:7:5-9:19
+16-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:7:18-43
 17        <uses-library android:name="android.test.runner" />
-17-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:8:9-60
-17-->/Users/macbook/Downloads/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7817083005390776795.xml:8:23-57
+17-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:8:9-60
+17-->/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7393308694650017227.xml:8:23-57
 18    </application>
 19
 20</manifest>

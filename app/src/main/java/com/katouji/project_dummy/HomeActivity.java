@@ -36,6 +36,7 @@ public class HomeActivity extends AppCompatActivity {
     private WifiManager wifiManager;
     private TextView txtUser;
     private Button lstfilm;
+    private Button add;
 
 
 
@@ -56,11 +57,21 @@ public class HomeActivity extends AppCompatActivity {
         });
 
 
+
+
         lstfilm = (Button) findViewById(R.id.lstfilm);
         lstfilm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivityFilm();
+            }
+        });
+
+        add = (Button) findViewById(R.id.add);
+        add.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openActivityAdd();
             }
         });
 
@@ -168,11 +179,20 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
-
-
-
-
-
+    public void openActivityAdd(){
+        Intent intent = new Intent(this, add.class);
+        startActivity(intent);
 
     }
+
+
+
+
+
+
+
+
+
+
+}
 

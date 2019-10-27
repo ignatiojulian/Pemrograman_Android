@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbook/Downloads/ProgAndro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
-                {
-                    "source": "/Users/macbook/Downloads/ProgAndro/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "153,154,155",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7704,7750,7797",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7745,7792,7843"
-                    }
-                },
                 {
                     "source": "/Users/macbook/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/res/values/values.xml",
                     "from": {
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/macbook/Downloads/ProgAndro/app/src/main/res/values/strings.xml",
+                    "source": "/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1,4",
                         "startColumns": "4,4",
@@ -131,7 +114,24 @@
                     }
                 },
                 {
-                    "source": "/Users/macbook/Downloads/ProgAndro/app/src/main/res/values/styles.xml",
+                    "source": "/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "153,154,155",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7704,7750,7797",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7745,7792,7843"
+                    }
+                },
+                {
+                    "source": "/Users/macbook/Downloads/Latihan ProgAndro/ProgAndro/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
