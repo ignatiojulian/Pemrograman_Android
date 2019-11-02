@@ -24,9 +24,12 @@ import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class HomeActivity extends AppCompatActivity {
@@ -36,7 +39,11 @@ public class HomeActivity extends AppCompatActivity {
     private WifiManager wifiManager;
     private TextView txtUser;
     private Button lstfilm;
-    private Button add;
+//    private Button add;
+    private Button btncrud;
+
+
+
 
 
 
@@ -45,6 +52,8 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+
 
         txtUser = (TextView) findViewById((R.id.txtUser));
         btnAbout = (Button) findViewById(R.id.btnAbout);
@@ -59,6 +68,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
+
         lstfilm = (Button) findViewById(R.id.lstfilm);
         lstfilm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,11 +77,13 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        add = (Button) findViewById(R.id.add);
-        add.setOnClickListener(new View.OnClickListener(){
+
+
+        btncrud = (Button) findViewById(R.id.btncrud);
+        btncrud.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                openActivityAdd();
+            public void onClick(View view) {
+                openActivitycrud();
             }
         });
 
@@ -88,6 +100,7 @@ public class HomeActivity extends AppCompatActivity {
         }
 
     }
+
 
 
     @Override
@@ -125,7 +138,6 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-
 
 
     public void loadFragmentOne(View v) {
@@ -179,11 +191,17 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
-    public void openActivityAdd(){
-        Intent intent = new Intent(this, add.class);
-        startActivity(intent);
+//    public void openActivityAdd(){
+//        Intent intent = new Intent(this, add.class);
+//        startActivity(intent);
+//
+//    }
 
+    public void openActivitycrud() {
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivity(intent);
     }
+
 
 
 

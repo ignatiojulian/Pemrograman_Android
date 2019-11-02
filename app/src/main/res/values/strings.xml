@@ -2,5 +2,11 @@
     <string name="app_name">Aplikasi Android</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="matakuliah">
+        <item>PBO</item>
+        <item>Algoritma</item>
+        <item>Jaringan Komputer</item>
+        <item>IMK</item>
+        <item>PCD</item>
+    </array>
 </resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f8eff8f3"
+        android:hint="Nama "
+        android:padding="16dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="19dp"
+        android:entries="@array/matakuliah" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="submit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data dibawah adalah data yang tersimpan di database Firebase. dan akan terupdate secara otomatis ketika sudah menginputkan data.[NOTE] Tekan lama untuk UPDATE DATA dan DELETE DATA." />
+
+    <ListView
+        android:id="@+id/listViewDosen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

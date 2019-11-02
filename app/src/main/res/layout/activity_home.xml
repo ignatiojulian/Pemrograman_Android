@@ -43,7 +43,7 @@
     <FrameLayout
         android:id="@+id/mainFrag"
         android:layout_width="match_parent"
-        android:layout_height="317dp"
+        android:layout_height="305dp"
         android:layout_gravity="top">
 
         <Button
@@ -54,7 +54,6 @@
             android:text="Nyalakan Wifi" />
 
 
-
         <Button
             android:id="@+id/btnAbout"
             android:layout_width="140dp"
@@ -62,8 +61,6 @@
             android:layout_gravity="center"
             android:background="#778899"
             android:text="ABOUT" />
-
-
 
 
     </FrameLayout>
@@ -90,10 +87,16 @@
         android:text="List Film" />
 
     <Button
-        android:id="@+id/add"
+        android:id="@+id/btncrud"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Data" />
+        android:text="crud firebase [Tugas Minggu ke 8]" />
+
+<!--    <Button-->
+<!--        android:id="@+id/add"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Add Data" />-->
 
 
 </LinearLayout>

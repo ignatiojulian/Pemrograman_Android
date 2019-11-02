@@ -9,6 +9,8 @@
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +22,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.katouji.project_dummy.Main2Activity" />
+        <activity android:name="com.katouji.project_dummy.Request" />
+        <activity android:name="com.katouji.project_dummy.firebase" />
+        <activity android:name="com.katouji.project_dummy.CRUDFirebase" />
         <activity android:name="com.katouji.project_dummy.add" />
         <activity android:name="com.katouji.project_dummy.AboutActivity" />
         <activity android:name="com.katouji.project_dummy.HomeActivity" />
@@ -35,6 +41,21 @@
         <service
             android:name="com.katouji.project_dummy.HomeActivity"
             android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.katouji.project_dummy.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>
