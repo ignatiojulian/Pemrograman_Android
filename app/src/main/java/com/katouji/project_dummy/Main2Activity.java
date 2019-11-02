@@ -126,7 +126,7 @@ public class Main2Activity extends AppCompatActivity {
         final Button buttonDelete = (Button) dialogView.findViewById(R.id.buttonDelete);
 
 
-        dialogBuilder.setTitle("Update Data "+namaDosen);
+        dialogBuilder.setTitle("Update Data : "+namaDosen);
 
         final AlertDialog alertDialog = dialogBuilder.create();
         alertDialog.show();
